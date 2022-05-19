@@ -32,8 +32,9 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           
-      # - name: Custom Domain
-      #   run: |   
+      - name: Custom Domain
+        run: |   
+          echo Hello, world!
       #     var ghpages = require('gh-pages');
       #     var fs = require('fs');
       #     fs.writeFile('dist/CNAME', "blog.wenyaoliu.com", function(err) {});
