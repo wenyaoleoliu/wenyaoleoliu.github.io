@@ -1,4 +1,4 @@
-baseurl = "https://www.wenyaoliu.com/blog/"
+baseurl = "https://blog.wenyaoliu.com/"
 canonifyURLs = true
 disableAliases = true
 disableHugoGeneratorInject = true
