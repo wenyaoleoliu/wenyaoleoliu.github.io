@@ -34,12 +34,8 @@ jobs:
           
       - name: Custom Domain
         run: |
-          echo Hello, world
-          
+          echo Hello, world          
           var ghpages = require('gh-pages');
           var fs = require('fs');
-
-          fs.writeFile('dist/CNAME', "your-custom-domain.com", function(err) {});
+          fs.writeFile('dist/CNAME', "blog.wenyaoliu.com", function(err) {});
           ghpages.publish('dist', function(err) {});
-        
-
