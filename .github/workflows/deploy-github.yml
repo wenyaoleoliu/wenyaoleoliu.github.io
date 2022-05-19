@@ -36,6 +36,7 @@ jobs:
         run: |   
           echo Hello, world!
           npm install -g gh-pages --save-dev
+          git config --global -e  
           echo 'blog.wenyaoliu.com' > ./CNAME && gh-pages -d build
       #     var ghpages = require('gh-pages');
       #     var fs = require('fs');
