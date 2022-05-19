@@ -35,6 +35,6 @@ jobs:
       - name: Custom Domain
         run: |
           echo Hello, world
-          echo 'blog.wenyaoliu.com' > ./build/CNAME && gh-pages -d build
+          echo 'blog.wenyaoliu.com' > ./build/CNAME && gh-pages -d build"
         
 
