@@ -32,13 +32,13 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           
-      - name: Custom Domain
-        run: |   
-          echo Hello, world!
-          npm install -g gh-pages --save-dev
-          git config --global user.email "wenyao.liu@okstate.edu"
-          git config --global user.name "wenyaoleoliu" 
-          echo 'blog.wenyaoliu.com' > ./CNAME && gh-pages -d build
+      # - name: Custom Domain
+      #   run: |   
+      #     echo Hello, world!
+      #     npm install -g gh-pages --save-dev
+      #     git config --global user.email "wenyao.liu@okstate.edu"
+      #     git config --global user.name "wenyaoleoliu" 
+      #     echo 'blog.wenyaoliu.com' > ./CNAME && gh-pages -d build
       #     var ghpages = require('gh-pages');
       #     var fs = require('fs');
       #     fs.writeFile('dist/CNAME', "blog.wenyaoliu.com", function(err) {});
