@@ -16,22 +16,6 @@ contributors: ["Wenyao Liu"]
 programlang: 
 ---
 
-## Problems updating npm packages
-
-Delete the `./node_modules` folder, and run again:
-
-```bash
-npm install
-```
-
-## Problems with cache
-
-Delete the temporary directories:
-
-```bash
-npm run clean
-```
-
 When writing docs under Doks theme the images were strictly organized under [page bundle](https://gohugo.io/content-management/page-bundles/).
 
 ```bash
